@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/Reload"
+        android:icon="@android:drawable/stat_notify_sync"
+        android:title="preference"
+        app:showAsAction="always" />
+    <item
+        android:title="General"
+        android:id="@+id/general"/>
+
+    <item
+        android:id="@+id/Favoris"
+        android:title="Favoris">
+    </item>
+
+    <item
+        android:title="@string/connect"
+        android:id="@+id/button_connect">
+    </item>
+</menu>
